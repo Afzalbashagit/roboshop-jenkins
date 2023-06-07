@@ -1,6 +1,6 @@
 - name: Template a file to /etc/file.conf
   ansible.builtin.template:
-    src: sjob.jxml
+    src: sjob.xml
     dest: /tmp/test.xml
 
 - name: Create a jenkins job using basic authentication
